@@ -1,0 +1,41 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+}
+body {
+  max-width: 1500px;
+  min-width: 500px;
+  background-image: url(./Assets/BACK.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 50px;
+  font-weight: 900;
+}
+h1 {
+  color: lightgreen;
+  font-size:40px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  padding: 100px;
+  text-align: center;
+}
+.card-body {
+  height: 600px;
+  width: 950px;
+  /* background-image:url(./Assets/question.jpg); */
+  background-image:url(./Assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row {
+  font-size: 18px;
+}
