@@ -1,16 +1,20 @@
 body{
+  color: white;
   margin-top: 250px;
   font-size: 20px;
-  font-family: monospace;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  background-image: url(./Assets/background.jpg);
+  background-size: cover;
 }
 
 #container{
   margin : 20px auto;
-  background-color: white;
-  height: 300px;
-  width : 700px;
+  background-image: url('./Assets/BACK.jfif');
+  background-size: cover;
+  height: 600px;
+  width : 1100px;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px 0px;
+  box-shadow: 0px 0px 40px 0px;
   position: relative;
 }
 #start{
@@ -18,18 +22,18 @@ body{
   font-weight: bolder;
   word-break: break-all;
   width:450px;
-  height:80px;
-  border : 2px solid lightgrey;
+  height:70px;
+  border : 2px solid white;
   text-align: center;
   cursor: pointer;
   position: absolute;
-  left:125px;
-  top:100px;
-  color : lightgrey;
+  left:320px;
+  top:250px;
+  color : white;
 }
 #start:hover{
-  border: 3px solid lightseagreen;
-  color : lightseagreen;
+  border: 5px solid purple;
+  color : purple;
 }
 
 #qImg{
@@ -41,13 +45,17 @@ body{
 }
 #qImg img{
   width : 200px;
-  height : 200px;
+  height : 400px;
+  margin: 100px;
+  margin-left: 140px;
   border-top-left-radius: 5px;
 }
 
 #question{
   width:500px;
   height : 125px;
+  margin: 100px;
+  margin-right: 140px;
   position: absolute;
   right:0;
   top:0;
@@ -59,6 +67,8 @@ body{
 }
 
 #choices{
+  margin: 100px;
+  margin-right: 140px;
   width : 480px;
   position: absolute;
   right : 0;
