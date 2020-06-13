@@ -114,6 +114,8 @@ function checkAnswer(answer) {
     score++;
     answerIsCorrect();
   } else {
+    count -= 5;
+    renderCounter;
     answerIsWrong();
   }
   if (runningQuestion < lastQuestion) {
