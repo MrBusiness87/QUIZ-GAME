@@ -115,7 +115,7 @@ function checkAnswer(answer) {
     answerIsCorrect();
   } else {
     count -= 5;
-    renderCounter;
+    renderCounter();
     answerIsWrong();
   }
   if (runningQuestion < lastQuestion) {
