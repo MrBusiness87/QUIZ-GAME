@@ -30,7 +30,7 @@ let questions = [{
   },
   {
     question: "What are the three main file types for coding a page?",
-    imgSrc: "./Assets/js.png",
+    imgSrc: "./Assets/java.png",
     choiceA: "HIJK/CDF/JK",
     choiceB: "HTTP/C++/JK",
     choiceC: "HTML/CSS/JS",
@@ -38,27 +38,27 @@ let questions = [{
   },
   {
     question: "What is the purpose of CSS?",
-    imgSrc: "./Assets/js.png",
+    imgSrc: "./Assets/css.png",
     choiceA: "To provide code for creating another page.",
     choiceB: "To provide information for styling a page.",
     choiceC: "To create pictures.",
     correct: "B",
   },
   {
-    question: "What are the three main file types for coding a page?",
-    imgSrc: "./Assets/js.png",
-    choiceA: "HIJK/CDF/JK",
-    choiceB: "HTTP/C++/JK",
-    choiceC: "HTML/CSS/JS",
+    question: "What is the difference between JS and HTML files?",
+    imgSrc: "./Assets/java.png",
+    choiceA: "JS describes how an element is placed, HTML is used for writing text.",
+    choiceB: "JS is for coffee, HTML is for your eggs.",
+    choiceC: "JS is the action of the page, HTML is the basic layout.",
     correct: "C",
   },
 ];
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
-let count = 200;
-const quizTime = 300;
-const gaugeWidth = 225;
+let count = 120;
+const quizTime = 120;
+const gaugeWidth = 120;
 const gaugeUnit = gaugeWidth / quizTime;
 let TIMER;
 let score = 0;
