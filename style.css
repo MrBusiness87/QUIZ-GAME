@@ -124,7 +124,7 @@ body {
   height: 10px;
   border-radius: 10px;
   background-color: lightgray;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 #timeGauge {
@@ -132,7 +132,7 @@ body {
   border-radius: 10px;
   background-color: mediumseagreen;
   margin-top: -10px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 #progress {
