@@ -1,0 +1,61 @@
+@media (max-width: 1000px) {
+  body {
+    background-image: url(./Assets/tablet-background.jpg);
+  }
+  
+  #h1 {
+    font-size: 60px;
+  }
+
+  #h2 {
+    font-size: 30px;
+  }
+
+  #container {
+    height: 500px;
+    width: 890px;
+  }
+
+  #start {
+    top: 200px;
+    left: 220px;
+  }
+
+  #qImg img {
+    width: 150px;
+    height: 300px;  
+  }
+
+  #question {
+    width: 400px;
+  }
+
+  #question p {
+    font-size: 1em;
+  }
+
+  #choices {
+    width: 440px;
+  }
+
+  .choice {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  #scoreContainer {
+    margin: 10px auto;
+    height: 200px;
+    width: 500px;
+  }
+
+  #scoreContainer img {
+    top: 50px;
+    left: 225px;
+  }
+
+  #scoreContainer p {
+    top: 80px;
+    left: 225px;
+  }
+}

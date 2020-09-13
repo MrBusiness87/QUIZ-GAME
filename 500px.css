@@ -1,0 +1,8 @@
+@media (width: 500px) {
+  body {
+    height: 700px;
+    background-image: url(./Assets/mobile-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
