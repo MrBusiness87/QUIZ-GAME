@@ -1,8 +1,16 @@
 @media (width: 500px) {
   body {
-    height: 700px;
+    height: 875px;
     background-image: url(./Assets/mobile-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #container {
+    margin-top: -200px;
+    margin-left: 5px;
+    height: 800px;
+    width: 470px;
+    opacity: 75%;
   }
 }
