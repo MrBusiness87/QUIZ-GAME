@@ -1,4 +1,4 @@
-@media (width: 500px) {
+@media (max-width: 500px) {
   body {
     height: 875px;
     background-image: url(./Assets/mobile-background.jpg);
@@ -7,10 +7,40 @@
   }
 
   #container {
+    background-image: url(./Assets/quiz-back-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: -200px;
     margin-left: 5px;
     height: 800px;
     width: 470px;
-    opacity: 75%;
+    opacity: 95%;
+  }
+
+  #start {
+    width: 375px;
+    margin-left: -175px;
+    margin-top: 80px;
+  }
+
+  #question p {
+    margin-left: 100px;
+    margin-top: 175px;
+    font-size: 30px;
+  }
+
+  #choices {
+    margin-left: 400px;
+  }
+
+  .choice {
+    margin-top: 175px;
+    font-size: 20px;
+  }
+
+  #qImg img {
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
   }
 }
